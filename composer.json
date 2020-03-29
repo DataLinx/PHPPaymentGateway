@@ -1,0 +1,21 @@
+{
+    "name": "pgc/pgc-php-client",
+    "description": "Client for PHP",
+    "keywords": [],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.6",
+        "ext-curl": "*",
+        "psr/log": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PaymentGateway\\Client\\": "src/"
+        }
+    },
+    "scripts": {
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
